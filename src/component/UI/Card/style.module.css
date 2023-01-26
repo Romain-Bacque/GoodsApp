@@ -1,0 +1,12 @@
+.card {
+  background-color: white;
+  margin: 14rem auto 100px !important;
+  padding: 2rem;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgb(75, 75, 75, 0.6);
+  transform: translateY(-2rem);
+  transition: all 0.3s linear;
+  opacity: 0;
+}

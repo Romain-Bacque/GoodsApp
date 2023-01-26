@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content__description {
+  font-style: italic;
+}
+
+.content__price {
+  font-weight: bold;
+  color: #cb997e;
+}
