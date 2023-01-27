@@ -12,10 +12,6 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchGoods());
-  }, [dispatch]);
-
-  useEffect(() => {
     const cart = JSON.parse(localStorage.getItem("cart"));
 
     if (cart) {
