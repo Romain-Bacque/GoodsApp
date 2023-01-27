@@ -5,7 +5,6 @@ import Layout from "./component/AppLayout";
 import { Route, Redirect, Switch } from "react-router-dom";
 import Goods from "./pages/GoodsPage";
 import GoodDetail from "./pages/GoodDetailPage";
-import { fetchGoods } from "./store/cart-actions";
 import { cartActions } from "./store/cart-slice";
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
       dispatch(
         cartActions.replace({
           items: cart.items,
-          totalAMount: cart.totalAmount,
+          totalAmount: cart.totalAmount,
         })
       );
     }
